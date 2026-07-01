@@ -1,5 +1,9 @@
 # CLAUDE.md — Sales Demo Menu
 
+> **Role in the live system:** This repo is the **design source** for the Birch & Bramble demo restaurant in Supabase. The script `product-menuadmin/scripts/seed-demo.ts` reads `config.js` and `menuData.js` from here and loads them into the database. This file itself is **never deployed** and is never touched by the live system — it is kept as-is for offline sales pitching. If you change the menu content here, the database is **not** automatically updated; the seed script would need to be re-run (which is destructive — see `product-menuadmin/scripts/README.md` before doing that).
+
+
+
 Guidance for Claude when working in this project, and the **playbook for personalising
 the menu for a sales lead**.
 
